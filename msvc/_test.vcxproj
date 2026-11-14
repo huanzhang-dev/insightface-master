@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CA40B44C-972D-5D6F-B430-15577FFD79B3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>_test</RootNamespace>
+    <WindowsTargetPlatformVersion Condition="'$(VisualStudioVersion)' != '14.0'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(VisualStudioVersion)' == '14.0'">8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PlatformToolset Condition="'$(PlatformToolset)' == '' and '$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(PlatformToolset)' == ''">v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="face_auth.props" />
+    <Import Project="face_auth_app.props" />
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="test_runner.cpp" />
+    <ClCompile Include="..\tests\test_common.cpp">
+      <PreprocessorDefinitions>main=fa_main_test_common;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tests\test_detect_units.cpp">
+      <PreprocessorDefinitions>main=fa_main_test_detect_units;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tests\test_engine_boundaries.cpp">
+      <PreprocessorDefinitions>main=fa_main_test_engine_boundaries;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tests\test_feature.cpp">
+      <PreprocessorDefinitions>main=fa_main_test_feature;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tests\test_match.cpp">
+      <PreprocessorDefinitions>main=fa_main_test_match;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tests\test_pipeline.cpp">
+      <PreprocessorDefinitions>main=fa_main_test_pipeline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\bench.cpp">
+      <PreprocessorDefinitions>main=fa_main_bench;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\bench_detect.cpp">
+      <PreprocessorDefinitions>main=fa_main_bench_detect;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\bench_extract.cpp">
+      <PreprocessorDefinitions>main=fa_main_bench_extract;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\bench_match.cpp">
+      <PreprocessorDefinitions>main=fa_main_bench_match;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\calibrate_lbp.cpp">
+      <PreprocessorDefinitions>main=fa_main_calibrate_lbp;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\calibrate_pose.cpp">
+      <PreprocessorDefinitions>main=fa_main_calibrate_pose;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\camera_check.cpp">
+      <PreprocessorDefinitions>main=fa_main_camera_check;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\check_video.cpp">
+      <PreprocessorDefinitions>main=fa_main_check_video;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\db_convert.cpp">
+      <PreprocessorDefinitions>main=fa_main_db_convert;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\detect_image.cpp">
+      <PreprocessorDefinitions>main=fa_main_detect_image;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\eval_detect.cpp">
+      <PreprocessorDefinitions>main=fa_main_eval_detect;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\eval_features.cpp">
+      <PreprocessorDefinitions>main=fa_main_eval_features;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\eval_footage.cpp">
+      <PreprocessorDefinitions>main=fa_main_eval_footage;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\gen_features.cpp">
+      <PreprocessorDefinitions>main=fa_main_gen_features;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\gen_video.cpp">
+      <PreprocessorDefinitions>main=fa_main_gen_video;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\mask_portraits.cpp">
+      <PreprocessorDefinitions>main=fa_main_mask_portraits;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\tools\roll_probe.cpp">
+      <PreprocessorDefinitions>main=fa_main_roll_probe;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\src\testdata\scene.cpp" />
+    <ClCompile Include="..\src\testdata\synthetic.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+
+  <ItemDefinitionGroup>
+    <Link><AdditionalDependencies>$(OutDir)face_authentication.lib;%(AdditionalDependencies)</AdditionalDependencies></Link>
+  </ItemDefinitionGroup>
+  <Target Name="BuildAuthenticationEngine" BeforeTargets="PrepareForBuild">
+    <MSBuild Projects="$(MSBuildThisFileDirectory)face_authentication.vcxproj"
+             Targets="Build" Properties="Configuration=$(Configuration);Platform=$(Platform);FaSkipTestRunner=true" />
+  </Target>
+</Project>

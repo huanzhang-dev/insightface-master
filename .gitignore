@@ -1,0 +1,16 @@
+# build output
+build/
+
+# Visual Studio's own files (the solution face_auth.sln and msvc/*.vcxproj / *.props ARE kept)
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# test data: portraits of real people (public domain, but keep them out of repositories),
+# generated videos and generated feature files. Recreate with scripts/ and tools/.
+data/
+
+# ONNX Runtime debug symbols (about 400 MB) are not needed to build or run
+third_party/onnxruntime/lib/*.pdb

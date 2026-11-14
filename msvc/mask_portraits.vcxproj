@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AB23F92A-DDC1-5E7F-809F-4FE455C17B3B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mask_portraits</RootNamespace>
+    <WindowsTargetPlatformVersion Condition="'$(VisualStudioVersion)' != '14.0'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(VisualStudioVersion)' == '14.0'">8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PlatformToolset Condition="'$(PlatformToolset)' == '' and '$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(PlatformToolset)' == ''">v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="face_auth.props" />
+    <Import Project="face_auth_app.props" />
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\tools\mask_portraits.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="fa_core.vcxproj">
+      <Project>{D42AD5DB-C25C-5237-8462-78D4110B182B}</Project>
+    </ProjectReference>
+    <ProjectReference Include="fa_inference.vcxproj">
+      <Project>{DB83B4F1-7FDD-5727-A78E-262B1BBB8554}</Project>
+    </ProjectReference>
+    <ProjectReference Include="fa_detect.vcxproj">
+      <Project>{66D4190B-7C6E-5F20-8965-60CB47AF3874}</Project>
+    </ProjectReference>
+    <ProjectReference Include="fa_feature.vcxproj">
+      <Project>{FFAD2148-5F46-5694-9AD7-34244EDF1F8C}</Project>
+    </ProjectReference>
+    <ProjectReference Include="fa_sqlite.vcxproj">
+      <Project>{A44A1E99-C50A-5AC4-96D3-2834D31BE291}</Project>
+    </ProjectReference>
+    <ProjectReference Include="fa_match.vcxproj">
+      <Project>{11BF8308-88FA-51BE-BE03-A7E2289F337F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="fa_pipeline.vcxproj">
+      <Project>{A29954CB-8657-5504-A377-E5D5FB6A1FAA}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

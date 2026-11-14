@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11BF8308-88FA-51BE-BE03-A7E2289F337F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>fa_match</RootNamespace>
+    <WindowsTargetPlatformVersion Condition="'$(VisualStudioVersion)' != '14.0'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(VisualStudioVersion)' == '14.0'">8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PlatformToolset Condition="'$(PlatformToolset)' == '' and '$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(PlatformToolset)' == ''">v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="face_auth.props" />
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\match\matcher.cpp" />
+    <ClCompile Include="..\src\store\feature_store.cpp" />
+    <ClCompile Include="..\src\store\sqlite_db.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\match\matcher.h" />
+    <ClInclude Include="..\src\store\feature_store.h" />
+    <ClInclude Include="..\src\store\record.h" />
+    <ClInclude Include="..\src\store\sqlite_db.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="fa_core.vcxproj">
+      <Project>{D42AD5DB-C25C-5237-8462-78D4110B182B}</Project>
+    </ProjectReference>
+    <ProjectReference Include="fa_sqlite.vcxproj">
+      <Project>{A44A1E99-C50A-5AC4-96D3-2834D31BE291}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

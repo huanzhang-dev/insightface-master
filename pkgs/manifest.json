@@ -1,0 +1,874 @@
+﻿{
+    "FormatVersion":  2,
+    "SupportedVisualStudio":  [
+                                  "2015 (v140)",
+                                  "2019 (v142)"
+                              ],
+    "Variants":  [
+                     {
+                         "Configuration":  "Release",
+                         "Architecture":  "x64",
+                         "EngineDependencies":  "Available",
+                         "DependencyConfiguration":  "Release"
+                     },
+                     {
+                         "Configuration":  "Debug",
+                         "Architecture":  "x64",
+                         "EngineDependencies":  "UsesReleaseMD",
+                         "DependencyConfiguration":  "Release"
+                     },
+                     {
+                         "Configuration":  "Release",
+                         "Architecture":  "x86",
+                         "EngineDependencies":  "Unavailable",
+                         "DependencyConfiguration":  "",
+                         "Note":  "Runtime installer only"
+                     },
+                     {
+                         "Configuration":  "Debug",
+                         "Architecture":  "x86",
+                         "EngineDependencies":  "Unavailable",
+                         "DependencyConfiguration":  "",
+                         "Note":  "No engine dependencies or Debug runtime package"
+                     }
+                 ],
+    "Files":  [
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\build_info.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\build_info.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2957,
+                      "SHA256":  "18A3FC84E10F86515B15E8E24C3BECBB5216C5CAA316AA6A7105147C737B9B99"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\Include\\glslang_c_interface.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\Include\\glslang_c_interface.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  12920,
+                      "SHA256":  "B723B0213CF65BB6CC44FEEE2CBC7746C82483A00AD7D5D057F7FD29C136490E"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\Include\\glslang_c_shader_types.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\Include\\glslang_c_shader_types.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  9467,
+                      "SHA256":  "3270764B5F5261441EA098D1C5305E9B5E3B17276DA82042B337734AD477D9C4"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\Include\\ResourceLimits.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\Include\\ResourceLimits.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  5664,
+                      "SHA256":  "A8B162EBBBF953334EE86464C5020BB606BE7DEF97E2BC2EDC7DBB435C9560AF"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\Include\\visibility.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\Include\\visibility.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2345,
+                      "SHA256":  "0E48F93441577E0E45AFCA8E425F0ACE7765FB5E135D9D505C12961A3EDC68AC"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\MachineIndependent\\Versions.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\MachineIndependent\\Versions.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  29561,
+                      "SHA256":  "61FA913A5AF8DEBCCB2C2C38838AEFB03BE9D721EACBAEFFE7119114A6A2E974"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\Public\\ResourceLimits.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\Public\\ResourceLimits.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2533,
+                      "SHA256":  "ADDF6AE69FFE48712320011BEB8375D3F912461709709E2BAD2FE1C8A7B8CDA7"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\Public\\resource_limits_c.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\Public\\resource_limits_c.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2394,
+                      "SHA256":  "4E01EE67E30BE094659E9579DB280005FC92A97AC3F57644A7827FF8FCC8FBA8"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\Public\\ShaderLang.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\Public\\ShaderLang.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  45855,
+                      "SHA256":  "91D38DF5C270C8F4CB241218DEAB24C7E5CD0D765F664E53ED2E4922361ADF45"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\SPIRV\\disassemble.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\SPIRV\\disassemble.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1982,
+                      "SHA256":  "EAC9C7213408196D29FED8517FB97515411E8A2EED2880DAAFB75BFCE578EB1C"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\SPIRV\\GlslangToSpv.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\SPIRV\\GlslangToSpv.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2911,
+                      "SHA256":  "41BB8A31378BFA1237ACCA834AD1E6C5B5D7D8AB9BCB28EC3B7443A8A88C8F45"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\SPIRV\\Logger.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\SPIRV\\Logger.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2740,
+                      "SHA256":  "0A6A1F0A8C50E8DABB01E0D5C4047E3D0976D3A5A968E26A03224C882D40664F"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\SPIRV\\spirv.hpp11",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\SPIRV\\spirv.hpp11",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  306882,
+                      "SHA256":  "ADE9934C13F660C95B76C6EC08275EF0BC23677D71592F35FD11F379E5F7121F"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\glslang\\SPIRV\\SpvTools.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\glslang\\SPIRV\\SpvTools.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  5302,
+                      "SHA256":  "A23D4817C892476ED9CFA952DF8B9D1BBCA005BE79F140FCD2D1F7B377480CE3"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\allocator.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\allocator.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  13212,
+                      "SHA256":  "4EEDF70DA9E9018F283C5C10F665E68790EE6CA3AE5C09C17C7ABB8542583C13"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\benchmark.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\benchmark.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  664,
+                      "SHA256":  "FA5E32FD6A61499801485667FDBA8BB0AA0BBBE8D34E6315AB69F5C198231CD9"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\blob.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\blob.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  562,
+                      "SHA256":  "D367B89C96F19A2E14AE2E021AD511F89603CDC6524BB9A25599BB5EFFBA3AB9"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\command.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\command.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  3737,
+                      "SHA256":  "D859BF0759E75BF8B031BCC834EFF84BAA17F37E2A0F073DC8C5D17062DB2F26"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\cpu.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\cpu.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  5625,
+                      "SHA256":  "7AC3A6FA221092366AE2C4529060082736F89A9EB4A29BA26581CFD9C4B7B086"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\c_api.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\c_api.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  25502,
+                      "SHA256":  "5B9D536DF035FA9E458703B72115FB073B66C03A2519EC5C2050380AAA4B9E30"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\datareader.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\datareader.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  3283,
+                      "SHA256":  "B1206EA1BC057B7A4F4B6CE75890D9846A77F607EB1D3C263A3BED4718AC14A1"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\expression.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\expression.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  806,
+                      "SHA256":  "919BF4DD8BDFE58A0AC5896C93B46433A2E552A22888268E6D0A9748DD696C8C"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\gpu.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\gpu.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  28380,
+                      "SHA256":  "65D76235512B1D78A5DEDF2C5B09ADB36E0486D48642A4B84CC89B5705DA3071"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\layer.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\layer.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  6087,
+                      "SHA256":  "3596A28CF312005707916385168A817BC291B6602FDA192B2FDD465FBA0E6E9D"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\layer_shader_type.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\layer_shader_type.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  349,
+                      "SHA256":  "42242A46CE7DABA28767B3CE293E22D4E79553F5B45CE079AC7A26080E42780E"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\layer_shader_type_enum.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\layer_shader_type_enum.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  9820,
+                      "SHA256":  "47F3265A5CD1173D66E8ED9C48BC7884866E548B280B4F27C4E816A42933559A"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\layer_type.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\layer_type.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  330,
+                      "SHA256":  "75CB00100BBFE2A502FF780711600A2ABC6C4D5043EB4EABBB86F07B13EFBD98"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\layer_type_enum.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\layer_type_enum.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1911,
+                      "SHA256":  "05D55B13C816F3289EE8E804181F484D652987751F8B85819BCC32064053EF85"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\mat.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\mat.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  91752,
+                      "SHA256":  "500B3AB018FCBED5860331975A1F85926EE426E5F53BBC64FF045DDFB370A42D"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\modelbin.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\modelbin.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1779,
+                      "SHA256":  "E4B9B7CBE702A85C7A4B952F0F456B89B69EEA17A3049B52CCA8E71A914D71E3"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\ncnn_export.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\ncnn_export.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  949,
+                      "SHA256":  "11C4A50DE8E76CDDD6EEB47E6E74D88162A3F63D07329BC744CE5ABA28889449"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\net.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\net.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  7872,
+                      "SHA256":  "D8D3F69B7EEB9A8EC24AB8201D92A8D24BA08A2EB4C4B6880D884985AC63862B"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\option.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\option.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  4539,
+                      "SHA256":  "534FD97CECD31B4AA9066D99ACDB5C3EE25479003381BC685AA28B368C05189E"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\paramdict.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\paramdict.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1602,
+                      "SHA256":  "57A4D90EA8C4E12BA7D810F7078E6B0A9B3E332F4F5C5D1F7679D3EC67564588"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\pipeline.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\pipeline.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2988,
+                      "SHA256":  "A0E2F2A417C5F283ADE6907D1CEF4370938271695DE974988044950AAF488DD1"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\pipelinecache.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\pipelinecache.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  3222,
+                      "SHA256":  "1013F4C6692DC9BFDEA1063E28494EFD5FEFFDDBC76911BE580948A0536ABEBF"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\platform.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\platform.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  13000,
+                      "SHA256":  "5D7216E367A79F7581DA13718BAE1C77EF57F993F1C09B53F914761BF5F890AC"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\simplemath.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\simplemath.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2862,
+                      "SHA256":  "E45B5676FD49DC87B76A979A3EFDDD7D31DED15EC7A30D65FE32ED4D9E1E43BA"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\simpleocv.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\simpleocv.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  9868,
+                      "SHA256":  "51F6838EB1E6823F2A6B6CB2F5F4F2536011DBD7C9C6FCFA7E9A5F3A940A6199"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\simpleomp.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\simpleomp.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  838,
+                      "SHA256":  "61756B512872A3AB10B35BA978DD5EC82CD30C6BA7E0E7327D4F6EF87E5FA3BF"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\simplestl.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\simplestl.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  12139,
+                      "SHA256":  "1AE30AD95DCF3C3A7FA3A3BFFA2E54CA2F7CCA9E1EE381CD51D6806E71D2508D"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\simplevk.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\simplevk.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  90967,
+                      "SHA256":  "5A996B816BB753D970F146E5516B76D8F7C10D080CEC9F9042C32352DEDD709A"
+                  },
+                  {
+                      "Path":  "common\\third_party\\ncnn\\include\\ncnn\\vulkan_header_fix.h",
+                      "RestorePath":  "third_party\\ncnn\\include\\ncnn\\vulkan_header_fix.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  97243,
+                      "SHA256":  "6D959E94C39F444271CE0CCBF42C56C31EEF9B3A90B8DB121CB797137DA9F766"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\ncnn\\lib\\GenericCodeGen.lib",
+                      "RestorePath":  "third_party\\ncnn\\lib\\GenericCodeGen.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  912,
+                      "SHA256":  "1ACFEAACD0830CBEA753D7D66A68692909DD1DEE5E6EEF3B6198F2C4A8E6C778"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\ncnn\\lib\\glslang-default-resource-limits.lib",
+                      "RestorePath":  "third_party\\ncnn\\lib\\glslang-default-resource-limits.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  118546,
+                      "SHA256":  "63FCF6B1D3C22EB970750A78A00925C32B085828ED4FCBADE94853932DE86451"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\ncnn\\lib\\glslang.lib",
+                      "RestorePath":  "third_party\\ncnn\\lib\\glslang.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  14592486,
+                      "SHA256":  "D0E86064711BD6F81B230DA17A6FA09A9E9892CA0BED2C85277256375653A0AB"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\ncnn\\lib\\MachineIndependent.lib",
+                      "RestorePath":  "third_party\\ncnn\\lib\\MachineIndependent.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  920,
+                      "SHA256":  "860DD91CDC05B0EE1CA3B1B186C1B0EE3FD1C61E3C228F24200A1C05E210AD98"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\ncnn\\lib\\ncnn.lib",
+                      "RestorePath":  "third_party\\ncnn\\lib\\ncnn.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  33024480,
+                      "SHA256":  "B72206787C31E768EC845414B1301C0039C317FD45010E28D11ED10850670A79"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\ncnn\\lib\\OSDependent.lib",
+                      "RestorePath":  "third_party\\ncnn\\lib\\OSDependent.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  926,
+                      "SHA256":  "BD9D86D2F17504F2099F62B3E4C03DBD3734A9EB969B44CADF670DB10A294090"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\ncnn\\lib\\SPIRV.lib",
+                      "RestorePath":  "third_party\\ncnn\\lib\\SPIRV.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  892,
+                      "SHA256":  "64D1F4D1AE853F651C1AD1F1306351F763A360E64E1110AAB3B2E2E0E0C01308"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\LICENSE",
+                      "RestorePath":  "third_party\\onnxruntime\\LICENSE",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1094,
+                      "SHA256":  "C250D6278F0B47A6439FB7592B08B58A55EB9F535AA49A1DB63211C3F982B674"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\ThirdPartyNotices.txt",
+                      "RestorePath":  "third_party\\onnxruntime\\ThirdPartyNotices.txt",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  345046,
+                      "SHA256":  "986101973EF6AF459C36845F626791DA4C9AE52BDAD4A980989AF2C6A5CB5A61"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\cpu_provider_factory.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\cpu_provider_factory.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  416,
+                      "SHA256":  "E2F658EEACE78D79A8DF82F233DCDEEA135DB498A77766156054BFC0D1D06C21"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_cxx_api.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_cxx_api.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  110297,
+                      "SHA256":  "2FFFB1A3D9C57E801AC27356CA2289C902ABAC0F95CF135A551021835D66EBB1"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_cxx_inline.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_cxx_inline.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  78225,
+                      "SHA256":  "397F5492D746C8FA115B0142AA682BA3B6CDCC0F6F10C6C50986F8352CEA37EA"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_c_api.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_c_api.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  211075,
+                      "SHA256":  "91C948993ACB1D04EF548C3F191614EB5C235F8F56B5CB0EAFE0A418C663D8F5"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_float16.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_float16.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  18694,
+                      "SHA256":  "E9B9773E9DB8A1795160E4B86332D20C73C076C04847A4AC5F77678D06F2B740"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_lite_custom_op.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_lite_custom_op.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  63182,
+                      "SHA256":  "50951CFBE51C580ED07D07C3019EF9D645FC07E9CEA548B36B1BA1282EF420E2"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_run_options_config_keys.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_run_options_config_keys.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1654,
+                      "SHA256":  "C32A0725408144461DAC591B19F2190ED4F31E5688F773C4D66A318D761866F8"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_session_options_config_keys.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_session_options_config_keys.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  16960,
+                      "SHA256":  "73D87214DA88EA34AFE0E30CE769A35509CD0B6159A4AF57F56F9BAF24190491"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_training_cxx_api.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_training_cxx_api.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  19620,
+                      "SHA256":  "CDFBAF04DDEEB17B7CA5DD73DD9DF02D9F7F7F4E2564CC7488C3E4A6415C01DB"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_training_cxx_inline.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_training_cxx_inline.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  13141,
+                      "SHA256":  "559A2E534392980C850683E1EEAFAAB26FF729EF037CB3C4B292DDF7056F3C09"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\onnxruntime_training_c_api.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\onnxruntime_training_c_api.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  36219,
+                      "SHA256":  "728AB2F035FF3F0B93EE6343727434C52271552DA4F51EAB65C07781CDAA4655"
+                  },
+                  {
+                      "Path":  "common\\third_party\\onnxruntime\\include\\provider_options.h",
+                      "RestorePath":  "third_party\\onnxruntime\\include\\provider_options.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  498,
+                      "SHA256":  "74F8ACCD5B30FBFE8ABB24CA279E634657B446BF5B9BE520BADAAEBCEA63CADE"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\onnxruntime\\lib\\onnxruntime.dll",
+                      "RestorePath":  "third_party\\onnxruntime\\lib\\onnxruntime.dll",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  10953136,
+                      "SHA256":  "55EA84749510EE412A3E41B5B41EEFD4E2BB05D3F14E5CDB865AE8DEB9D1D267"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\onnxruntime\\lib\\onnxruntime.lib",
+                      "RestorePath":  "third_party\\onnxruntime\\lib\\onnxruntime.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  2124,
+                      "SHA256":  "5634552D72480529063392DED0EFFC0A3C793B8C8165D0B166F48D491FAA0596"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\onnxruntime\\lib\\onnxruntime.pdb",
+                      "RestorePath":  "third_party\\onnxruntime\\lib\\onnxruntime.pdb",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "ReleaseSymbols",
+                      "Bytes":  286486528,
+                      "SHA256":  "0425C89694D12447F5D0A0DA82B94D6C7641BFCDB877863B01B64CC3F5B6B77A"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\onnxruntime\\lib\\onnxruntime_providers_shared.dll",
+                      "RestorePath":  "third_party\\onnxruntime\\lib\\onnxruntime_providers_shared.dll",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  22568,
+                      "SHA256":  "D8CF89682E9D23578965E596EAA9BF55E226B53AC6EC9B9EF8685490841EAA72"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\onnxruntime\\lib\\onnxruntime_providers_shared.lib",
+                      "RestorePath":  "third_party\\onnxruntime\\lib\\onnxruntime_providers_shared.lib",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "EngineDependency",
+                      "Bytes":  2314,
+                      "SHA256":  "D617CC3367080C2AC11C2855F6D2D02227537CE7FC59CC7F26035D711D6A28C4"
+                  },
+                  {
+                      "Path":  "release\\x64\\third_party\\onnxruntime\\lib\\onnxruntime_providers_shared.pdb",
+                      "RestorePath":  "third_party\\onnxruntime\\lib\\onnxruntime_providers_shared.pdb",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "ReleaseSymbols",
+                      "Bytes":  487424,
+                      "SHA256":  "347345731075DF2532C93029A39ABECD667AC458756FDD0D73745D4B54551F71"
+                  },
+                  {
+                      "Path":  "common\\third_party\\sqlite\\sqlite3.c",
+                      "RestorePath":  "third_party\\sqlite\\sqlite3.c",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  9582521,
+                      "SHA256":  "0C657666D819F261CC4007526AD57E1669DE9949DF7A8EA847AA284A2BF0EE52"
+                  },
+                  {
+                      "Path":  "common\\third_party\\sqlite\\sqlite3.h",
+                      "RestorePath":  "third_party\\sqlite\\sqlite3.h",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  695729,
+                      "SHA256":  "D6C84557261893439B341D2E6C35187AE3EA24FBFD843AD94616F72D89242B8C"
+                  },
+                  {
+                      "Path":  "common\\models\\classical.ini",
+                      "RestorePath":  "models\\classical.ini",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  641,
+                      "SHA256":  "B2CB130831D695E1D1E3E44DD91CD3F5BC954D6FCF60CBF914CFA2A32AA5B906"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial.ini",
+                      "RestorePath":  "models\\dev_noncommercial.ini",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2351,
+                      "SHA256":  "3F5C4BC390500CB992CA6FEFDB11BE87871AD090D05CFFD69A61838ED3D21FD4"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial_onnx.ini",
+                      "RestorePath":  "models\\dev_noncommercial_onnx.ini",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  797,
+                      "SHA256":  "18652FC40E6C80AAB8AEF334FE757EBDC4F2C529B09235F40F2E4CCB6FF4F479"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial_square.ini",
+                      "RestorePath":  "models\\dev_noncommercial_square.ini",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2164,
+                      "SHA256":  "2961C3FB45CB6F16B274CB7ED1F2E4AEDF725CFE420DEAB28E1EA2BC770A4E5C"
+                  },
+                  {
+                      "Path":  "common\\models\\lbp_calibration.bin",
+                      "RestorePath":  "models\\lbp_calibration.bin",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  23128,
+                      "SHA256":  "B9E0AB2E3185873258CA0578FB07B21B1D45824D143DD0581B8C829C9289061E"
+                  },
+                  {
+                      "Path":  "common\\models\\permissive.ini",
+                      "RestorePath":  "models\\permissive.ini",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1787,
+                      "SHA256":  "BD92461E55BDD20AF4260FF8C1357F94E5A033C2D4E5ABE316F7B613F4651265"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\arcface_w600k_mbf.onnx",
+                      "RestorePath":  "models\\dev_noncommercial\\arcface_w600k_mbf.onnx",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  13616099,
+                      "SHA256":  "9CC6E4A75F0E2BF0B1AED94578F144D15175F357BDC05E815E5C4A02B319EB4F"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\det.bin",
+                      "RestorePath":  "models\\dev_noncommercial\\det.bin",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1263560,
+                      "SHA256":  "0AA8789EBADDF1B02B769F6EE036050E9BB0E1B3C2B8B0A8710989A5215BD4D9"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\det.param",
+                      "RestorePath":  "models\\dev_noncommercial\\det.param",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  10212,
+                      "SHA256":  "0E9E2F5A83C324D334529C2B98660D91000318FBA520A08D934C3836A327ABB6"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\det_dyn.bin",
+                      "RestorePath":  "models\\dev_noncommercial\\det_dyn.bin",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  1263560,
+                      "SHA256":  "0AA8789EBADDF1B02B769F6EE036050E9BB0E1B3C2B8B0A8710989A5215BD4D9"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\det_dyn.param",
+                      "RestorePath":  "models\\dev_noncommercial\\det_dyn.param",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  10252,
+                      "SHA256":  "CB96DB994BCB83CD843EC0F4518BEC58F5983098065E0834A11757C6CA4E4B6F"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\rec.bin",
+                      "RestorePath":  "models\\dev_noncommercial\\rec.bin",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  6835400,
+                      "SHA256":  "BF964D5FA23C4AF7B0B60F054289B09D745726245726CAE6968E564747B6D780"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\rec.param",
+                      "RestorePath":  "models\\dev_noncommercial\\rec.param",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  9710,
+                      "SHA256":  "2639653A8DC037167F6380932634B0C94A76700CE1C6C4050AF6332C7BB3259B"
+                  },
+                  {
+                      "Path":  "common\\models\\dev_noncommercial\\scrfd_det_500m.onnx",
+                      "RestorePath":  "models\\dev_noncommercial\\scrfd_det_500m.onnx",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  2524817,
+                      "SHA256":  "5E4447F50245BBD7966BD6C0FA52938C61474A04EC7DEF48753668A9D8B4EA3A"
+                  },
+                  {
+                      "Path":  "common\\models\\permissive\\haar_eye.xml",
+                      "RestorePath":  "models\\permissive\\haar_eye.xml",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  341406,
+                      "SHA256":  "71CC64FC305A355DC60067880F6FBBD43DD155BD63EE3844661A1BDA34B2FD8C"
+                  },
+                  {
+                      "Path":  "common\\models\\permissive\\haar_frontalface.xml",
+                      "RestorePath":  "models\\permissive\\haar_frontalface.xml",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  930127,
+                      "SHA256":  "0F7D4527844EB514D4A4948E822DA90FBB16A34A0BBBBC6ADC6498747A5AAFB0"
+                  },
+                  {
+                      "Path":  "common\\models\\permissive\\sface.onnx",
+                      "RestorePath":  "models\\permissive\\sface.onnx",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  38696353,
+                      "SHA256":  "0BA9FBFA01B5270C96627C4EF784DA859931E02F04419C829E83484087C34E79"
+                  },
+                  {
+                      "Path":  "common\\models\\permissive\\yunet.onnx",
+                      "RestorePath":  "models\\permissive\\yunet.onnx",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  232589,
+                      "SHA256":  "8F2383E4DD3CFBB4553EA8718107FC0423210DC964F9F4280604804ED2552FA4"
+                  },
+                  {
+                      "Path":  "common\\models\\permissive\\yunet_320.onnx",
+                      "RestorePath":  "models\\permissive\\yunet_320.onnx",
+                      "Configuration":  "Common",
+                      "Architecture":  "Any",
+                      "Kind":  "SourceHeaderModelOrLicense",
+                      "Bytes":  232557,
+                      "SHA256":  "BEB05BF2378AEE45CD7C41056DA07265B7BB91041ED1B06F923819A9C744EC36"
+                  },
+                  {
+                      "Path":  "release\\x64\\runtime\\VC_redist.x64.exe",
+                      "RestorePath":  "",
+                      "Configuration":  "Release",
+                      "Architecture":  "x64",
+                      "Kind":  "RuntimeInstaller",
+                      "Bytes":  25333272,
+                      "SHA256":  "6AFAE68A783F11292149175844AED0E2CE3F247BC0250F6CB18C931295B3F399"
+                  },
+                  {
+                      "Path":  "release\\x86\\runtime\\VC_redist.x86.exe",
+                      "RestorePath":  "",
+                      "Configuration":  "Release",
+                      "Architecture":  "x86",
+                      "Kind":  "RuntimeInstaller",
+                      "Bytes":  13889072,
+                      "SHA256":  "38C9437E6E9EF1DB2671B3F0C879FEBEC08521BD2C23231199F626B69AE1C65E"
+                  }
+              ]
+}

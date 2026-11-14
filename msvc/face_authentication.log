@@ -1,0 +1,22 @@
+﻿  draw_text.cpp
+  image_io.cpp
+  image_ops.cpp
+  profile.cpp
+  inference.cpp
+  detector.cpp
+  detector_deep.cpp
+  detector_haar.cpp
+  haar_cascade.cpp
+  pose.cpp
+  tracker.cpp
+  extractor.cpp
+  extractor_deep.cpp
+  extractor_lbp.cpp
+  matcher.cpp
+  feature_store.cpp
+  sqlite_db.cpp
+  auth_pipeline.cpp
+  frame_source.cpp
+  video_writer.cpp
+  sqlite3.c
+  face_authentication.vcxproj -> Z:\AST\face_auth\build\vs2019\Release\face_authentication.lib
