@@ -1,0 +1,62 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 1136,
+    "sha256": "97a179e834c02678b259dadf9730592d10db79c55ece141556dc02903100c33b"
+  },
+  {
+    "path": "sleep-assets.zip",
+    "bytes": 16952297,
+    "sha256": "b45491acbef175021642d71493402d9574564e6783d8f313173ad67ea3bb0899"
+  },
+  {
+    "path": "sleep-source.zip",
+    "bytes": 63741,
+    "sha256": "afa3b4f167ab8cf81b828fbe5fee3ca0b868a8b368842d61c35ee715c8f469f8"
+  },
+  {
+    "path": "application/bin/DirectML.dll",
+    "bytes": 18527264,
+    "sha256": "18c82a9c06141f7e96241adad1a35bebf4780a72d8eeeb107ec12f748391b3f5"
+  },
+  {
+    "path": "application/bin/onnxruntime.dll",
+    "bytes": 14682160,
+    "sha256": "903c92c54acc57caa77d44d4c856c829eb82f5cf6755b47367a8153bd3fabeb6"
+  },
+  {
+    "path": "application/bin/Sleep.exe",
+    "bytes": 211456,
+    "sha256": "06f878bcb1081ca3dd7dd36ca4a47137dc2a107ec8d61f976be60699f7bdd5fd"
+  },
+  {
+    "path": "application/data/models/face_detector.onnx",
+    "bytes": 470549,
+    "sha256": "2f2689b040becf555706d2cb978d2f0e3296ea82413734fba9a856c66c5f2b17"
+  },
+  {
+    "path": "application/data/models/face_mesh.onnx",
+    "bytes": 2466068,
+    "sha256": "3ca77cf59c18e4da0eccb46695bf604683fa564253e3385892981a5c274fb10f"
+  },
+  {
+    "path": "application/data/testdata/face.png",
+    "bytes": 791555,
+    "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5"
+  },
+  {
+    "path": "application/licenses/DirectML_LICENSE.txt",
+    "bytes": 10439,
+    "sha256": "a05138e3a085ff60a44881eedfa58dccb03ecc1d7b1f6ae888418e8c2fec4b8d"
+  },
+  {
+    "path": "application/licenses/onnxruntime_LICENSE",
+    "bytes": 1073,
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+  },
+  {
+    "path": "application/licenses/reference_LICENSE",
+    "bytes": 11353,
+    "sha256": "5be6cf80c710a3ec4fc2c269119b00ba714c58acb3cb1e0225a86e3d0c37084b"
+  }
+]

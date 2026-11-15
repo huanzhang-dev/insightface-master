@@ -1,0 +1,7 @@
+bin/
+build/
+output/
+.vs/
+*.user
+third_party/ort_package/
+*.nupkg

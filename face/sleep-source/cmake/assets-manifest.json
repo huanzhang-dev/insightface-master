@@ -1,0 +1,101 @@
+[
+  {
+    "path": "models/face_detector.onnx",
+    "url": "https://github.com/yakhyo/mediapipe-face-mesh-onnx/releases/download/weights/face_detection_short_range.onnx",
+    "bytes": 470549,
+    "sha256": "2f2689b040becf555706d2cb978d2f0e3296ea82413734fba9a856c66c5f2b17"
+  },
+  {
+    "path": "models/face_mesh.onnx",
+    "url": "https://github.com/yakhyo/mediapipe-face-mesh-onnx/releases/download/weights/face_mesh_Nx3x192x192.onnx",
+    "bytes": 2466068,
+    "sha256": "3ca77cf59c18e4da0eccb46695bf604683fa564253e3385892981a5c274fb10f"
+  },
+  {
+    "path": "testdata/face.png",
+    "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.19.3/skimage/data/astronaut.png",
+    "bytes": 791555,
+    "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5"
+  },
+  {
+    "path": "third_party/canonical_face_model.obj",
+    "url": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/master/mediapipe/modules/face_geometry/data/canonical_face_model.obj",
+    "bytes": 45999,
+    "sha256": "8bac80443397e113f41a8b565ea72c59390bc031d9defab289dba7bc0c54e618"
+  },
+  {
+    "path": "third_party/onnxruntime/DirectML.dll",
+    "bytes": 18527264,
+    "sha256": "18c82a9c06141f7e96241adad1a35bebf4780a72d8eeeb107ec12f748391b3f5"
+  },
+  {
+    "path": "third_party/onnxruntime/onnxruntime.dll",
+    "bytes": 14682160,
+    "sha256": "903c92c54acc57caa77d44d4c856c829eb82f5cf6755b47367a8153bd3fabeb6"
+  },
+  {
+    "path": "third_party/onnxruntime/include/cpu_provider_factory.h",
+    "bytes": 416,
+    "sha256": "e2f658eeace78d79a8df82f233dcdeea135db498a77766156054bfc0d1d06c21"
+  },
+  {
+    "path": "third_party/onnxruntime/include/dml_provider_factory.h",
+    "bytes": 6463,
+    "sha256": "e0eca38f176d314e2612480db3d719407dd072fdd001cc0bea12d4fefca639cf"
+  },
+  {
+    "path": "third_party/onnxruntime/include/onnxruntime_cxx_api.h",
+    "bytes": 113961,
+    "sha256": "fa7f64d7717a0d57bf8fe65d55b80038a476dae2132bd4b9c2eb6119490ef445"
+  },
+  {
+    "path": "third_party/onnxruntime/include/onnxruntime_cxx_inline.h",
+    "bytes": 83342,
+    "sha256": "0c53f13b655830c381b559a6841eab2e8e6682d17191844c813eb58834a2be47"
+  },
+  {
+    "path": "third_party/onnxruntime/include/onnxruntime_c_api.h",
+    "bytes": 223104,
+    "sha256": "b0176725a7cc6d44c9de973330422433684ae3144e6b300ec2df755a2e6bcf64"
+  },
+  {
+    "path": "third_party/onnxruntime/include/onnxruntime_float16.h",
+    "bytes": 18395,
+    "sha256": "f6885fe69ca80eb9c46f2f0b951138bbef81646407705fdf2d6c23aa50ce632e"
+  },
+  {
+    "path": "third_party/onnxruntime/include/onnxruntime_lite_custom_op.h",
+    "bytes": 63344,
+    "sha256": "4748811e61bf5f11a58f2c11fd0b05b409651bd81fee58c039a32ec8933c477c"
+  },
+  {
+    "path": "third_party/onnxruntime/include/onnxruntime_run_options_config_keys.h",
+    "bytes": 2857,
+    "sha256": "c990d43696b316f51a6b5b0caf241adce5f1e9de3d63e13f1ffca2c615286a9b"
+  },
+  {
+    "path": "third_party/onnxruntime/include/onnxruntime_session_options_config_keys.h",
+    "bytes": 19005,
+    "sha256": "673fa5d83d69ddd8d6da4b25a87d5d56d48325ca1248e5741150b65760b604cb"
+  },
+  {
+    "path": "third_party/onnxruntime/include/provider_options.h",
+    "bytes": 498,
+    "sha256": "74f8accd5b30fbfe8abb24ca279e634657b446bf5b9be520badaaebcea63cade"
+  },
+  {
+    "path": "third_party/DirectML_LICENSE.txt",
+    "bytes": 10439,
+    "sha256": "a05138e3a085ff60a44881eedfa58dccb03ecc1d7b1f6ae888418e8c2fec4b8d"
+  },
+  {
+    "path": "third_party/onnxruntime_LICENSE",
+    "bytes": 1073,
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+  },
+  {
+    "path": "third_party/reference_LICENSE",
+    "bytes": 11353,
+    "sha256": "5be6cf80c710a3ec4fc2c269119b00ba714c58acb3cb1e0225a86e3d0c37084b"
+  }
+]
