@@ -1,0 +1,38 @@
+Third-party components and test media
+
+OpenCV 4.5.5: https://github.com/opencv/opencv/releases/tag/4.5.5
+OpenCV Zoo YOLOX/CRNN models: https://github.com/opencv/opencv_zoo
+Full model notices: third_party/yolox_LICENSE and third_party/crnn_LICENSE.
+ONNX Runtime 1.12.1: MIT, third_party/onnxruntime/LICENSE.txt
+Microsoft DirectML 1.9.0: bundled package license in third_party/directml.
+License-plate weights: https://github.com/yakhyo/yolov5-license-plate-detection/releases/tag/v0.0.1
+That release does not provide a separate model-weight license notice.
+
+Real traffic footage and derived car photograph:
+https://github.com/intel-iot-devkit/sample-videos/blob/master/car-detection.mp4
+Credit: Intel IoT Dev Kit sample-videos contributors. CC BY 4.0.
+Full license: third_party/traffic_LICENSE.
+
+Bus source photograph:
+https://github.com/ultralytics/assets/blob/main/im/bus.jpg
+Credit: Ultralytics assets repository; retain upstream terms for that asset.
+
+Truck photographs and attribution metadata:
+
+File:Side view of white Kaukokiito truck with Lehtonen branding.jpg
+https://commons.wikimedia.org/wiki/File:Side_view_of_white_Kaukokiito_truck_with_Lehtonen_branding.jpg
+Artist: Kotivalo
+License: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+File:Buessing BS LT 11 Truck built in 1965. side. Spielvogel.JPG
+https://commons.wikimedia.org/wiki/File:Buessing_BS_LT_11_Truck_built_in_1965._side._Spielvogel.JPG
+Artist: Spielvogel
+
+For a gallery of some more of my uploaded pictures see: here.
+License: CC0 http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+The composite_plates video adds animation, layout, and artificial plate strings
+to source photographs. Retain the listed credits and applicable share-alike
+terms with derivative media. Other synthetic clips are generated procedural
+test scenes. These sources are test material, not instructions to the program.
+
+Multilingual additions: Tesseract 5.2.0 and tessdata_fast language models (Apache-2.0), native binaries from CharlesW Tesseract 5.2.0 NuGet, Leptonica 1.82.0 (BSD-style upstream license). The managed wrapper DLL is not used. Sources/hashes are in models/manifest.json. Tesseract license: third_party/tesseract_LICENSE. Unicode 17.0.0 data: Unicode license in third_party/unicode_LICENSE.

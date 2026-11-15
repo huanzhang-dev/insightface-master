@@ -1,0 +1,114 @@
+[
+  {
+    "path": "models/yolox.onnx",
+    "url": "https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/object_detection_yolox/object_detection_yolox_2022nov.onnx",
+    "bytes": 35858002,
+    "sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+    "notice": "OpenCV Zoo; Apache-2.0"
+  },
+  {
+    "path": "models/ocr_latin.onnx",
+    "url": "https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/text_recognition_crnn/text_recognition_CRNN_EN_2021sep.onnx",
+    "bytes": 33823087,
+    "sha256": "a84b1f6e11a65c2d733cb0cc1f014aae3f99051e3f11447dc282faa678eee544",
+    "notice": "OpenCV Zoo; Apache-2.0"
+  },
+  {
+    "path": "models/plate.onnx",
+    "url": "https://github.com/yakhyo/yolov5-license-plate-detection/releases/download/v0.0.1/anpr_yolov5s.onnx",
+    "bytes": 28499042,
+    "sha256": "d8c97ce019f263899cd21eec7d33a728e9e16ade1ea125bb28de5723aa341b4f",
+    "notice": "Upstream release; no separate weight license supplied"
+  },
+  {
+    "path": "third_party/opencv-complete.exe",
+    "url": "https://github.com/opencv/opencv/releases/download/4.5.5/opencv-4.5.5-vc14_vc15.exe",
+    "bytes": 233840107,
+    "sha256": "cac31973cd1c59bfe9dc926acbde815553d23662ea355e0414b5e50d8f8aa5a8",
+    "notice": "OpenCV 4.5.5 SDK"
+  },
+  {
+    "path": "third_party/onnxruntime-directml.nupkg",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.ml.onnxruntime.directml/1.12.1/microsoft.ml.onnxruntime.directml.1.12.1.nupkg",
+    "bytes": 14275885,
+    "sha256": "6a8c53904c6169d910e39ebbceac953060e8c5b41a6303dff63ba99a09686bbd",
+    "notice": "ONNX Runtime; MIT"
+  },
+  {
+    "path": "third_party/directml.nupkg",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.ai.directml/1.9.0/microsoft.ai.directml.1.9.0.nupkg",
+    "bytes": 68125540,
+    "sha256": "052224190fa5db862694c29799c8eb7945191f5d0046b736f9864bd98417da14",
+    "notice": "Microsoft DirectML; included license"
+  },
+  {
+    "path": "models/tessdata/eng.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/eng.traineddata",
+    "bytes": 4113088,
+    "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+    "notice": "Tesseract Apache-2.0 or upstream license"
+  },
+  {
+    "path": "models/tessdata/chi_sim.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/chi_sim.traineddata",
+    "bytes": 2469156,
+    "sha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730",
+    "notice": "Tesseract Apache-2.0 or upstream license"
+  },
+  {
+    "path": "models/tessdata/kor.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/kor.traineddata",
+    "bytes": 1677415,
+    "sha256": "6b85e11d9bbf07863b97b3523b1b112844c43e713df8b66418a081fd1060b3b2",
+    "notice": "Tesseract Apache-2.0 or upstream license"
+  },
+  {
+    "path": "models/tessdata/jpn.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/main/jpn.traineddata",
+    "bytes": 14330109,
+    "sha256": "36bdf9ac823f5911e624c30d0553e890b8abc7c31a65b3ef14da943658c40b79",
+    "notice": "Tesseract tessdata_best Japanese; Apache-2.0"
+  },
+  {
+    "path": "models/tessdata/ara.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/ara.traineddata",
+    "bytes": 1432056,
+    "sha256": "e3206d3dc87fd50c24a0fb9f01838615911d25168f4e64415244b67d2bb3e729",
+    "notice": "Tesseract Apache-2.0 or upstream license"
+  },
+  {
+    "path": "models/tessdata/rus.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+    "bytes": 3861738,
+    "sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225",
+    "notice": "Tesseract Apache-2.0 or upstream license"
+  },
+  {
+    "path": "third_party/UnicodeData.txt",
+    "url": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+    "bytes": 2198209,
+    "sha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+    "notice": "Unicode data license"
+  },
+  {
+    "path": "third_party/tesseract_LICENSE",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/5.2.0/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "notice": "Tesseract Apache-2.0 or upstream license"
+  },
+  {
+    "path": "third_party/unicode_LICENSE",
+    "url": "https://www.unicode.org/license.txt",
+    "bytes": 1995,
+    "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+    "notice": "Tesseract Apache-2.0 or upstream license"
+  },
+  {
+    "path": "third_party/tesseract.nupkg",
+    "url": "https://api.nuget.org/v3-flatcontainer/tesseract/5.2.0/tesseract.5.2.0.nupkg",
+    "bytes": 5697774,
+    "sha256": "202d82fc7c7d8384df7da57206d5e1f456ccdabd648c46e67cdfaa3a911d4795",
+    "notice": "CharlesW native Tesseract 5.2.0 / Leptonica 1.82.0"
+  }
+]

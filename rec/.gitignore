@@ -1,0 +1,5 @@
+# Generated files belong outside the source tree; ignore accidental IDE state.
+.vs/
+CMakeUserPresets.json
+*.user
+*.VC.db
